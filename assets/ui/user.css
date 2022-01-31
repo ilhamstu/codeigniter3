@@ -1,0 +1,114 @@
+.container-carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    padding: 24px 0px;
+}
+
+.main-pages {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px auto 150px;
+}
+
+.text-stabilo {
+    display: inline-block;
+    background-color: var(--G200, #D6FFDE);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.714286rem;
+    color: var(--G500, #03AC0E);
+    line-height: 1.4;
+    letter-spacing: normal;
+    margin-bottom: 4px;
+    height: 20px;
+    padding: 3px 4px 2px;
+    margin-right: auto;
+}
+
+.logo-toko {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    margin-right: 2px;
+    vertical-align: middle;
+    background-image: url(https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/Power%20Merchant%20Pro@2x.png);
+}
+
+.text-kota-toko {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+}
+
+.text-harga {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    margin-bottom: 4px;
+    color: rgba(49, 53, 59, 0.96);
+    opacity: 1;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: flex-end;
+    line-height: 1.43;
+}
+
+.bungkus-card {
+    display: flex;
+    position: flex;
+    overflow: visible;
+    flex-flow: column nowrap;
+    height: 100%;
+}
+
+.gambar-produk {
+    box-sizing: inherit;
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+
+.wadah-text-kategori {
+    padding: 10px;
+    display: table-cell;
+}
+
+.card-kategori {
+    text-decoration: none;
+    cursor: pointer;
+    flex: auto;
+    padding: 15px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.card-box-kategori {
+    cursor: default;
+    width: 250px;
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: .25rem;
+}
